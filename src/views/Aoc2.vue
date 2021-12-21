@@ -4,7 +4,8 @@
     <p>Position of submarine is {{ getSubmarinePosition(inputImport) }}</p>
     <h4>Part two</h4>
     <p>
-        New position of submarine is {{ getSubmarineAimPosition(inputImport) }}
+        Position of submarine with aim is
+        {{ getSubmarineAimPosition(inputImport) }}
     </p>
 </template>
 

@@ -10,14 +10,17 @@ const routes = [
     {
         path: "/aoc1",
         name: "aoc1",
-        component: () =>
-            import(/* webpackChunkName: "about" */ "../views/Aoc1.vue"),
+        component: () => import("../views/Aoc1.vue"),
     },
     {
         path: "/aoc2",
         name: "aoc2",
-        component: () =>
-            import(/* webpackChunkName: "about" */ "../views/Aoc2.vue"),
+        component: () => import("../views/Aoc2.vue"),
+    },
+    {
+        path: "/aoc3",
+        name: "aoc3",
+        component: () => import("../views/Aoc3.vue"),
     },
 ];
 

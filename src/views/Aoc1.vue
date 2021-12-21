@@ -1,7 +1,6 @@
 <template>
     <h2>Day 1</h2>
     <h4>Part One</h4>
-    <!-- ţest code [199, 200, 208, 210, 200, 207, 240, 269, 260, 263] -->
     <p>
         {{ getNumOfLargerMeasur(inputImport) }} measurements are larger than the
         previous measurement.
@@ -26,9 +25,11 @@ export default {
 
     setup() {
         const inputImport = ref(input);
+        const testCode = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
 
         return {
             inputImport,
+            testCode,
         };
     },
 

@@ -3,6 +3,7 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/aoc1">1.</router-link> |
         <router-link to="/aoc2">2.</router-link> |
+        <router-link to="/aoc3">3.</router-link> |
     </div>
     <router-view />
 </template>

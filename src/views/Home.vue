@@ -1,6 +1,6 @@
 <template>
     <h1>Advent of code 2021</h1>
-    <div>Process: 1/50 completed</div>
+    <div>Process: 4/50 completed</div>
 </template>
 
 <script>
