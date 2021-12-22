@@ -8,19 +8,19 @@ const routes = [
         component: Home,
     },
     {
-        path: "/aoc1",
-        name: "aoc1",
-        component: () => import("../views/Aoc1.vue"),
+        path: "/day1",
+        name: "day1",
+        component: () => import("../views/Day1.vue"),
     },
     {
-        path: "/aoc2",
-        name: "aoc2",
-        component: () => import("../views/Aoc2.vue"),
+        path: "/day2",
+        name: "day2",
+        component: () => import("../views/Day2.vue"),
     },
     {
-        path: "/aoc3",
-        name: "aoc3",
-        component: () => import("../views/Aoc3.vue"),
+        path: "/day3",
+        name: "day3",
+        component: () => import("../views/Day3.vue"),
     },
 ];
 
